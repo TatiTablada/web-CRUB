@@ -1,0 +1,32 @@
+---
+import menuItems, { type SeccionMenu } from '../data/menu';
+const tieneSubcategorias = (seccion: SeccionMenu) => seccion.subcategorias && seccion.subcategorias.length > 0;
+---
+
+<nav class="menu-principal">
+  <ul class="lista-secciones">
+    {menuItems.map((seccion) => (
+      <li class:list={['seccion-item', { 'con-subcategorias': tieneSubcategorias(seccion) }]}>
+        
+        <a href={seccion.url} class="enlace-principal">
+          {seccion.nombre}
+        </a>
+
+        {tieneSubcategorias(seccion) && (
+          <ul class="lista-subcategorias">
+            {seccion.subcategorias.map((sub) => (
+              <li class="subcategoria-item">
+                <a href={sub.url} class="enlace-subcategoria">
+                  {sub.nombre}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </li>
+    ))}
+  </ul>
+</nav>
+
+
+<style src="../../styles/navegacion.css"></style>

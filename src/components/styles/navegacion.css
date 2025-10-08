@@ -1,0 +1,44 @@
+.menu-principal {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.lista-secciones {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.seccion-item {
+    position: relative;
+}
+
+
+.lista-subcategorias {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 10;
+    list-style: none;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.con-subcategorias:hover .lista-subcategorias {
+    display: block;
+    background-color: rgb(101, 195, 238);
+}
+
+
+.enlace-principal,
+.enlace-subcategoria {
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+}
