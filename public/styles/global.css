@@ -1,7 +1,27 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+main {
+    flex-grow: 1;
+}
+
 .menu-principal {
+    display: grid;
+    justify-content: center;
     background-color: #ffffff;
     padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #111111;
 }
 
 .lista-secciones {
@@ -41,4 +61,16 @@
     text-decoration: none;
     padding: 8px 15px;
     display: block;
+}
+
+#sec-logo {
+    margin: 0 auto auto 0;
+    padding: 15px;
+    width: 80px;
+    display: block;
+}
+
+#sec-logo img {
+    width: 100%;
+    height: auto;
 }

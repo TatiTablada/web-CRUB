@@ -11,10 +11,6 @@ export interface SeccionMenu {
 
 const menuItems: SeccionMenu[] = [
     {
-        nombre: "Inicio",
-        url: "/",
-    },
-    {
         nombre: "Institución",
         url: "/institucion",
         subcategorias: [
@@ -32,27 +28,27 @@ const menuItems: SeccionMenu[] = [
         ],
     },
     {
-        nombre: "Extensión",
-        url: "/extension-crub",
-        subcategorias: [
-            { nombre: "Arte, historia y cultura: territorios y prácticas en la Provincia de Buenos Aires", url: "/extension-crub/arte" },
-            { nombre: "Actualización para la Justicia de Paz Bonaerense", url: "/extension-crub/bonaerense" },
-        ],
-    },
-    {
         nombre: "Proyectos",
         url: "/proyectos",
         subcategorias: [
-            { nombre: "Proyecto Preparatoria", url: "/proyectos/proyecto-prepa" },
-            { nombre: "Expo-Bolivar Educa", url: "/proyectos/expo-Bolivar" },
+            { nombre: "Proyecto Preparatoria", url: "/proyectos/preparatoria" },
+            { nombre: "Expo-Bolivar Educa", url: "/proyectos/expo-Bolivar-educa" },
         ],
     },
     {
         nombre: "Residencias",
         url: "/residencias",
         subcategorias: [
-            { nombre: "Residencias en Azul", url: "/proyectos/residencia-azul" },
-            { nombre: "Residencias en La Plata", url: "/proyectos/residencia-laplata" },
+            { nombre: "Residencias en Azul", url: "/residencias/residencia-azul" },
+            { nombre: "Residencias en La Plata", url: "/residencias/residencia-la-plata" },
+        ],
+    },
+    {
+        nombre: "Extensión",
+        url: "/extension-crub",
+        subcategorias: [
+            { nombre: "Arte, historia y cultura: territorios y prácticas en la Provincia de Buenos Aires", url: "/extension-crub/arte" },
+            { nombre: "Actualización para la Justicia de Paz Bonaerense", url: "/extension-crub/bonaerense" },
         ],
     },
 
