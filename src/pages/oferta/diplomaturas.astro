@@ -1,59 +1,68 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import '../../styles/global.css'
 ---
 
-<BaseLayout title="Diplomaturas" description="Página donde se muestran las distintas Diplomaturas que ofrece la institución.">
+<BaseLayout
+    title="Diplomaturas"
+    description="Página donde se muestran las distintas Diplomaturas que ofrece la institución."
+>
+    <section>
+        <h1 class="titulo">Nuestras Diplomaturas</h1>
 
-<h1>Nuestras Diplomaturas</h1>
+        <article class="diplomatura">
+            <h2>HABILIDADES DIGITALES E IA PARA LA FORMACIÓN DOCENTE</h2>
 
-<section class="diplo-docente">
-<h2>HABILIDADES DIGITALES E IA PARA LA FORMACIÓN DOCENTE</h2>
+            <ul class="info-diplomatura">
+                <li>Universidad Nacional de Tres de Febrero</li>
+                <li>Duración: 6 meses</li>
+                <li>Modalidad: Virtual</li>
+                <li>Financiamiento: Municipalidad de Bolívar</li>
+            </ul>
+        </article>
 
-<p>Universidad Nacional de Tres de Febrero
-Duración: 6 meses
-Modalidad: virtual.
-Financiamiento: Municipalidad de Bolívar.
-</p>
-</section>
+        <article class="diplomatura">
+            <h2>COMERCIO ELECTRÓNICO, TIENDAS VIRTUALES Y MKT DIGITAL</h2>
 
-<section class="diplo-tecno">
-<h2>COMERCIO ELECTRÓNICO, TIENDAS VIRTUALES Y MKT DIGITAL</h2>
+            <ul class="info-diplomatura">
+                <li>Universidad Nacional de Tres de Febrero</li>
+                <li>Duración: 6 meses</li>
+                <li>Modalidad: Virtual</li>
+                <li>Financiamiento: Municipalidad de Bolívar</li>
+            </ul>
+        </article>
 
-<p>Universidad Nacional de Tres de Febrero.
-Duración: 6 meses
-Modalidad: virtual.
-Financiamiento: Municipalidad de Bolívar
-</p>
-</section>
+        <article class="diplomatura">
+            <h2>GESTIÓN DE LA CIBERSEGURIDAD</h2>
 
-<section class="diplo-ciberseguridad">
-<h2>GESTIÓN DE LA CIBERSEGURIDAD</h2>
+            <ul class="info-diplomatura">
+                <li>Universidad Nacional General Sarmiento</li>
+                <li>Duración: 9 meses</li>
+                <li>Modalidad: Virtual</li>
+                <li>Financiamiento: Programa PUENTES</li>
+            </ul>
+        </article>
 
-<p>Universidad Nacional General Sarmiento
-Duración: 9 meses
-Modalidad: virtual.
-Financiamiento: Programa PUENTES
-</p>
-</section>
+        <article class="diplomatura">
+            <h2>DIRECCIÓN Y GESTIÓN DE AGRONEGOCIOS</h2>
 
-<section class="diplo-agro">
-<h2>DIRECCIÓN Y GESTIÓN DE AGRONEGOCIOS</h2>
+            <ul class="info-diplomatura">
+                <li>Universidad del Centro de la Provincia de Buenos Aires</li>
+                <li>Duración: 1 año</li>
+                <li>Modalidad: Presencial (cada 15 días)</li>
+                <li>Financiamiento: Programa PUENTES</li>
+            </ul>
+        </article>
 
-<p>Universidad del Centro de la Provincia de Buenos Aires
-Duración: 1 año
-Modalidad: Presencial cada 15 días.
-Financiamiento: Programa PUENTES.
-</p>
-</section>
+        <article class="diplomatura">
+            <h2>ANÁLISIS DE DATOS</h2>
 
-<section class="diplo-datos">
-<h2>ANÁLISIS DE DATOS</h2>
-
-<p>Universidad Nacional de San Martín
-Duración: 
-Modalidad: Virtual
-Financiamiento: Programa PUENTES.
-</p>
-</section>
-
+            <ul class="info-diplomatura">
+                <li>Universidad Nacional de San Martín</li>
+                <li>Duración: 1 año</li>
+                <li>Modalidad: Presencial (cada 15 días)</li>
+                <li>Financiamiento: Programa PUENTES</li>
+            </ul>
+        </article>
+    </section>
 </BaseLayout>

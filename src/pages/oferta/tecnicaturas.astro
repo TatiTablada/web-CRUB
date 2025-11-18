@@ -1,39 +1,45 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro'
 ---
 
-<BaseLayout title="Diplomaturas" description="Página donde se muestran las distintas Diplomaturas que ofrece la institución.">
+<BaseLayout
+    title="Diplomaturas"
+    description="Página donde se muestran las distintas Diplomaturas que ofrece la institución."
+>
+    <section>
+        <h1 class="titulo">Nuestras Tecnicaturas</h1>
 
-<h1>Nuestras Tecnicaturas</h1>
+        <article class="tecnicatura">
+            <h2>TECNICATURA UNIVERSITARIA EN QUÍMICA</h2>
 
-<section class="tec-quimica">
-<h2>TECNICATURA UNIVERSITARIA EN QUÍMICA</h2>
+            <ul class="info-tecnicatura">
+                <li>Universidad Nacional de Quilmes</li>
+                <li>Duración: 3 años</li>
+                <li>Modalidad: Híbrida</li>
+                <li>Financiamiento: Municipalidad de Bolívar</li>
+            </ul>
+        </article>
 
-<p>Universidad Nacional de Quilmes
-Duración: 3 años
-Modalidad: Híbrida
-Financiamiento: Municipalidad de Bolívar
-</p>
-</section>
+        <article class="tecnicatura">
+            <h2>TECNICATURA UNIVERSITARIA EN AUTOMATIZACIÓN Y CONTROL</h2>
 
-<section class="tec-auto">
-<h2>TECNICATURA UNIVERSITARIA EN AUTOMATIZACIÓN Y CONTROL</h2>
+            <ul class="info-tecnicatura">
+                <li>Universidad Nacional de General Sarmiento</li>
+                <li>Duración: 3 años</li>
+                <li>Modalidad: Híbrida</li>
+                <li>Financiamiento: Programa PUENTES</li>
+            </ul>
+        </article>
 
-<p>Universidad Nacional de General Sarmiento
-Duración: 3 años
-Modalidad: Híbrida
-Financiamiento: PROGRAMA PUENTES
-</p>
-</section>
+        <article class="tecnicatura">
+            <h2>TECNICATURA EN ENFERMERÍA</h2>
 
-<section class="tec-enfermeria">
-<h2>TECNICATURA EN ENFERMERÍA</h2>
-
-<p>Escuela de Gobierno “Floreal Ferrara”
-Duración: 3 años
-Modalidad: Presencial
-Financiamiento: Municipalidad de Bolívar
-</p>
-</section>
-
+            <ul class="info-tecnicatura">
+                <li>Escuela de Gobierno “Floreal Ferrara”</li>
+                <li>Duración: 3 años</li>
+                <li>Modalidad: Presencial</li>
+                <li>Financiamiento: Municipalidad de Bolívar</li>
+            </ul>
+        </article>
+    </section>
 </BaseLayout>

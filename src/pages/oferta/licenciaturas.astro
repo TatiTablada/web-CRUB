@@ -1,39 +1,43 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro'
 ---
 
-<BaseLayout title="Diplomaturas" description="Página donde se muestran las distintas Diplomaturas que ofrece la institución.">
+<BaseLayout
+    title="Diplomaturas"
+    description="Página donde se muestran las distintas Diplomaturas que ofrece la institución."
+>
+    <h1 class="titulo">Nuestras Licenciaturas</h1>
 
-<h1>Nuestras Licenciaturas</h1>
+    <article class="licenciatura">
+        <h2>LICENCIATURA EN ENSEÑANZA DE LAS CIENCIAS NATURALES</h2>
 
-<section class="lic-cn">
-<h2>LICENCIATURA EN ENSEÑANZA DE LAS CIENCIAS NATURALES</h2>
+        <ul class="info-licenciatura">
+            <li>Universidad Nacional Arturo Jauretche</li>
+            <li>Duración: 2 años y 6 meses (ciclo complementación docente)</li>
+            <li>Modalidad: Virtual</li>
+            <li>Financiamiento: Programa PUENTES</li>
+        </ul>
+    </article>
 
-<p>Universidad Nacional Arturo Jauretche
-Duración: 2 años y 6 meses (ciclo complementación docente)
-Modalidad: Virtual
-Financiamiento: Programa PUENTES
-</p>
-</section>
+    <article class="licenciatura">
+        <h2>LICENCIATURA EN PSICOLOGÍA</h2>
 
-<section class="lic-psico">
-<h2>LICENCIATURA EN PSICOLOGÍA</h2>
+        <ul class="info-licenciatura">
+            <li>Universidad Nacional de Mar del Plata</li>
+            <li>Duración: 5 años</li>
+            <li>Modalidad: Híbrida</li>
+            <li>Financiamiento: Municipalidad de Bolívar</li>
+        </ul>
+    </article>
 
-<p>Universidad Nacional de Mar del Plata
-Duración: 5 años
-Modalidad: Híbrida
-Financiamiento: Municipalidad de Bolívar
-</p>
-</section>
+    <article class="licenciatura">
+        <h2>LICENCIATURA EN NUTRICIÓN</h2>
 
-<section class="lic-nutri">
-<h2>LICENCIATURA EN NUTRICIÓN</h2>
-
-<p>Universidad Nacional de Tres de Febrero
-Duración: 5 años
-Modalidad: Híbrida
-Financiamiento: Municipalidad de Bolivar
-</p>
-</section>
-
+        <ul class="info-licenciatura">
+            <li>Universidad Nacional de Tres de Febrero</li>
+            <li>Duración: 5 años</li>
+            <li>Modalidad: Híbrida</li>
+            <li>Financiamiento: Municipalidad de Bolívar</li>
+        </ul>
+    </article>
 </BaseLayout>

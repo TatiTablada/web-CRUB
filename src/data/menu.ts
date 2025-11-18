@@ -28,14 +28,6 @@ const menuItems: SeccionMenu[] = [
         ],
     },
     {
-        nombre: "Proyectos",
-        url: "/proyectos",
-        subcategorias: [
-            { nombre: "Proyecto Preparatoria", url: "/proyectos/preparatoria" },
-            { nombre: "Expo-Bolivar Educa", url: "/proyectos/expo-Bolivar-educa" },
-        ],
-    },
-    {
         nombre: "Residencias",
         url: "/residencias",
         subcategorias: [
